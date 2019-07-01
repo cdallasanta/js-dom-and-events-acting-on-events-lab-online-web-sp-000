@@ -25,5 +25,4 @@ function clearEmployeeListOnLinkClick() {
   $("ul.employee-list li").remove();
 }
 
-// addNewLiOnClick(): This adds the employee name as an li element on click and clears the input value.
 // clearEmployeeListOnLinkClick(): This empties out the employee list when "Clear employee list" button clicked.
