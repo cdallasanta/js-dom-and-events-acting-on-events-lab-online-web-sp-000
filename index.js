@@ -21,8 +21,10 @@ function addNewLiOnClick() {
   $("input").val("");
 }
 
-$("a").addEventListener('click', function clearEmployeeListOnLinkClick() {
-  $("ul.employee-list li").remove();
-});
+function clearEmployeeListOnLinkClick() {
+  $("a").addEventListener('click', function(e) {
+    $("ul.employee-list li").remove();
+  });
+}
 
 // clearEmployeeListOnLinkClick(): This empties out the employee list when "Clear employee list" button clicked.
