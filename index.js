@@ -22,7 +22,7 @@ function addNewLiOnClick() {
 }
 
 function clearEmployeeListOnLinkClick() {
-  $("ul.employee-list").empty();
+  $("ul.employee-list li").remove();
 }
 
 // addNewLiOnClick(): This adds the employee name as an li element on click and clears the input value.
