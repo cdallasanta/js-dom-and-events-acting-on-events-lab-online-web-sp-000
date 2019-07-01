@@ -7,7 +7,7 @@ function preventRefreshOnSubmit(){
 preventRefreshOnSubmit()
 
 function retrieveEmployeeInformation() {
-
+  $("input").
 }
 
 // : This retrieves the employee information from the input. It returns a string equal to the value in the input.
